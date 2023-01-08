@@ -1,0 +1,39 @@
+body
+{
+
+	background-image: url(sellpage.jpg);
+	background-size: cover;
+	background-position: center;
+        box-sizing: border-box;
+	font-family: sans-serif;
+}
+h1{
+	background-color: #1a2b3c;
+	text-align:center;
+	color:white;}
+
+table{
+	margin:auto;}
+
+form{
+	border: 3px solid ;
+        }
+h2{
+	color:yellow;}
+
+.block {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 300px;
+  height: 350px;
+  background-color: white;
+}
+
+.container {
+  text-align: center;
+}
+
+.block img {
+ width: 200px;
+ height: 200px;
+ }

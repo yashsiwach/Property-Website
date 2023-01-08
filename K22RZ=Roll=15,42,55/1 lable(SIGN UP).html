@@ -1,0 +1,80 @@
+<html>
+<head>
+<title>SIGN UP</title>
+<link rel="stylesheet"	
+	href="1 lable.css">
+</head>
+
+<body>
+<h1> SIGN UP</h1>
+<form action="main.html">
+<table>
+<tr>
+ <td><label>I am</label></td>
+ <td>
+	<input type="radio" id = "buyer/owner" name = "ownertype" value = "Buyer/Owner">
+	<label for = "buyer/owner"> Buyer/Owner </label>
+    <input type="radio" id = "Agent" name = "ownertype" value = "Agent">
+	<label for = "Agent"> Agent </label>
+    <input type="radio" id = "builder" name = "ownertype" value = "Builder">
+	<label for = "builder"> Builder </label>
+	<br></td>
+ <tr>
+<!--<input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br> -->
+ <tr>
+ <td><label for = "fname" required>First Name</label></td>
+ <td><input type="text" id = "fname" name = "fname" value = ""></input><br></td>
+ </tr>
+
+ <tr>
+ <td><label for = "lname">Last Name</label></td>
+ <td><input type="text" id = "lname" name = "lname" value = ""></input><br></td>
+ </tr>
+
+ <tr>
+ <td><label for "address" >Address</label></td>
+ <td><input type="text" id = "address" required></input><br></td>
+ <tr>
+
+ <tr>
+ <td><label for "mobNo">Mobile No.</label></td>
+ <td><input type="number" id = "mobNo" required></input><br></td>
+ <tr>
+
+ <tr>
+ <td><label for "email">Email Id</label></td>
+ <td><input type="email" id = "email" required></input><br></td>
+ <tr>
+
+ <tr>
+ <td><label for "pwd">Password</label></td>
+ <td><input type="password" id = "pwd" required></input></td>
+ </tr>
+
+ <tr>
+ <td><label for = "category">Category</label></td>
+ <td><select id = "category" >
+     <option>Select</option>
+     <option>1 BHK</option>
+     <option>2 BHK</option>
+     <option>3 BHK</option>
+     <option>4 BHK</option></td>
+ </tr>
+
+<tr>
+ <td><label for = "message">Any Query</label></td>
+ <td><textarea id =  "message" rows = "10" col = "50"></textarea></td>
+ </tr>
+
+
+
+ <tr>
+ <td></td>
+ <td><button onclick="alert('Registered Successfully')">Register</button></td>
+ </tr>
+
+</table>
+</form>
+</body>
+</html>

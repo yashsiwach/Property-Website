@@ -1,0 +1,21 @@
+body{
+	background-image : url("bgimagesignup.jpg");
+	height = auto ; 
+	width = auto  ;
+}
+h1{
+	background-color: #1a2b3c;
+	text-align:center;
+	color:white;}
+table{
+	margin:auto;}
+form{
+	border: 3px solid ;
+	font-size : 20px ; 
+	font-family : veridona ; 
+}
+label{
+	font-size : 20px ; 
+	font-family : veridona ; 
+	font-weight : bold ; 
+}

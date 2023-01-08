@@ -1,0 +1,48 @@
+body
+{
+	background-color:skyblue;}
+
+h1{background-color: #1a2b3c;
+	color:white;
+        text-width:8%;
+        text-height:12%; 
+        text-align:center;
+}
+#divider{
+  color:green;
+  text-align:center;
+}
+.box{
+    width:300px;
+    
+}
+
+.box img{
+         margin-button:4%;
+         height:250px;
+         width:300px;
+}
+ .box h3{
+        margin-button:4%;
+}
+
+.box p{
+       margin-button:4%;
+}
+.click{
+       margin-top:2%;
+       width:140px;
+       height:30px;
+       backgroung:green;
+       color:green;
+       padding:4px;
+       border:none;
+       font-size:0.9em;
+}
+.shop{
+      /*display: grid;
+      grid-template-coloumns:repeat(4, 1fr)*/
+      display:flex;
+      justify-content:space-between;
+      padding-left:2%;
+}

@@ -1,0 +1,95 @@
+
+*{
+	margin : 3px ; 
+	padding : 5px ; 
+}
+body{
+	background-color : powderblue ; 
+
+	font-family : helvectica ; /*new roman ; */
+		background-image : url('bgimageaboutus.jpg') ; 
+		background-size : cover ; 
+	background-repeat : no-repeat ;
+}
+h3 {
+	font-family : Garamond ; 
+	font-weight : bold ;
+	letter-spacing : 3px  ; 
+	color : rgb(255, 102, 0); /*rgb(204, 102, 255);   /*rgb(51, 153, 255) ; */
+	/*line-height : 1.6 ; */
+	margin: 5px ; 
+}
+h2{
+	color : rgb(153, 255, 102) ; 
+	text-align :center ; 
+	text-decoration : underline ; 
+	letter-spacing : 3px ; 
+}
+#p1,#p2{
+	padding : 12px ; 
+    color :	#00ff99 ; 
+	line-height : 1.2 ; 
+}
+ul{
+	color : #ffcc66 ; 
+	list-style-type : square ; 
+	padding : 25px ; 
+	
+}
+.grid-container {
+	display : grid ; 
+	grid-template-columns : 1fr 3fr 1fr 5fr ;  
+	grid-gap : 7px ;
+}
+.grid-item{
+	font-family : Garamond ; 
+	font-size : 30px ; 
+	border : 2px solid grey ;*/
+	padding : 3px 10px ; 
+	height : 100px ; 
+}
+button {
+	font-family : Veridona ; 
+	font-weight : bold ; 
+	letter-spacing : 2px ; 
+}
+#id1 {
+	text-align : center ; 
+	padding-bottom : 5px ; 
+}
+#id2 {
+	grid-column : 2/span 2;
+	text-align : center ; 
+	text-shadow : 5% ;
+	margin : 5px  ; 
+	/*width : 1000px; */
+}
+#id3 {
+	grid-column : 4/span 2;
+	text-align : right ; 
+	padding-top : 10px ; 
+	padding-right : 10px ; 
+	/*width : 100px ; */
+}
+#id4 {
+	grid-column : 1/span 5 ; 
+	/*grid-row : 2/span 2; */
+	height : 200px; 
+}
+#id5 {
+	grid-column : 1/4 ; 
+	height : 600px ; 
+}
+#id6 {
+	/*grid-column : 1/4 ; */
+	height : 600px ; 
+}
+img {
+	width : 100% ; 
+	height : 100% ;
+	margin : auto ; 
+}
+#image{
+	width : 100% ; 
+	height : 100% ;
+}

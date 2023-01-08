@@ -1,0 +1,27 @@
+h1{
+	color:white;
+	text-align:center;
+	text-transfrom:uppercase;
+	background-color: #1a2b3c;}
+
+body{
+	background-image : url("bgimagecontactus.jpg");}
+
+p {
+  text-align:center;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: 30px;
+}
+
+
+table{
+	margin:auto;}
+
+td{
+	font-size: 20px;
+	text-align:left;}
+form{
+	color:black;
+	border: 3px solid ;}
+

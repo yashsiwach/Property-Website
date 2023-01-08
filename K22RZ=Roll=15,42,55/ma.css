@@ -1,0 +1,101 @@
+h1{
+	font-family:rozha;
+	color:white;
+	text-align:center;
+	text-transfrom:uppercase;
+	background-color: #1a2b3c;}
+
+h2{
+	color:red;}
+
+
+body
+{
+
+	background-image: url(bgimage.jfif);
+	background-size: cover;
+	background-position: center;
+        box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+nav img
+{
+	width: 89px;
+	position: absolute;
+	top: 66px;
+	left: 8px;
+	font-size: 2em;
+	font-family; Arial black;
+	text-transform: uppercase;
+	color:#fff;
+}
+
+.menu-bar
+{
+	background:  #555; 
+	text-align: right;
+	
+}
+
+.menu-bar ul
+{
+	
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+	
+}
+
+.menu-bar ul li
+{
+	text-align: center;
+	width: 100px;
+	margin: 9px;
+	padding: 10px;
+	
+}
+
+.menu-bar ul li a
+{
+	text-decoration: none;
+	color: #fff;
+}
+
+.active,.menu-bar ul li:hover
+{
+	background: #2bab0d;
+	border-radius: 3px;
+}
+
+.column {
+  float: left;  /*To display the list items horizontally*/
+  width: 20%;
+  padding: 5px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.block {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 300px;
+  height: 420px;
+  background-color: lightgray;
+}
+
+.container {
+  text-align: center;
+}
+
+.block img {
+ width: 200px;
+ height: 200px;
+ }
+
+
